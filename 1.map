@@ -1,0 +1,30 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+__ds18b20_scratch_pad                                             0x02DE       9
+RC5_DATA                                                          0x02E7       2
+counter                                                           0x02E9       2
+step                                                              0x02EB       1
+step2                                                             0x02EC       1
+buf                                                               0x02ED      80
+buf2                                                              0x033D      80
+buffer                                                            0x038D      80
+digbuf                                                            0x03DD      12
+i                                                                 0x03E9       1
+month                                                             0x03EA      24
+week                                                              0x0402      14
+t                                                                 0x0410       7
+_seed                                                             0x0417       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+OCRA                                                              0x0000       2
+OCRB                                                              0x0002       2
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+temper                                                            R4,R5        2
+TOOGLE                                                            R2.0      1bit
+RC_FLAG                                                           R2.1      1bit
